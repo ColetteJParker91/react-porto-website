@@ -27,8 +27,8 @@ const About = () => {
 
             <article className="about_card">
               <FiUsers className="about_icon" />
-              <h5>Clients</h5>
-              <small>2 clients</small>
+              <h5>Certification</h5>
+              <small>Career Foundry Full Stack Web Development</small>
             </article>
 
             <article className="about_card">
@@ -38,10 +38,12 @@ const About = () => {
             </article>
           </div>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque
-            perferendis est repellendus officiis atque eaque praesentium
-            explicabo. Eaque eos cupiditate a minima corporis? Ipsam voluptates
-            ad minus tempore incidunt cumque.
+            I’m a full stack web developer with a background in digital
+            healthcare. I transitioned to software development because of my
+            understanding of user experience and strong sense of curiosity that
+            makes me want to develop my own technical solutions. Recent roles in
+            medical startups have satisfied my desire to develop products that
+            are helpful in customers day to day life.
           </p>
           <a href="#contact" className="btn btn-primary">
             Get in touch
