@@ -1,5 +1,6 @@
 import React from "react";
 import "./services.css";
+import { BsCheck } from "react-icons/bs";
 
 const Services = () => {
   return (
@@ -12,7 +13,118 @@ const Services = () => {
             <h3>UI/UX Design</h3>
           </div>
           <ul className="service_list">
-            <li></li>
+            <li>
+              <BsCheck className="service_lis-icon" />
+              <p>
+                {" "}
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                Pariatur, neque.
+              </p>
+            </li>
+            <li>
+              <BsCheck className="service_lis-icon" />
+              <p>
+                {" "}
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                Pariatur, neque.
+              </p>
+            </li>
+            <li>
+              <BsCheck className="service_lis-icon" />
+              <p>
+                {" "}
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                Pariatur, neque.
+              </p>
+            </li>
+            <li>
+              <BsCheck className="service_lis-icon" />
+              <p>
+                {" "}
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                Pariatur, neque.
+              </p>
+            </li>
+          </ul>
+        </article>
+        {/*End of UI/UX*/}
+        <article className="service">
+          <div className="service_head">
+            <h3>Web Development</h3>
+          </div>
+          <ul className="service_list">
+            <li>
+              <BsCheck className="service_lis-icon" />
+              <p>
+                {" "}
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                Pariatur, neque.
+              </p>
+            </li>
+            <li>
+              <BsCheck className="service_lis-icon" />
+              <p>
+                {" "}
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                Pariatur, neque.
+              </p>
+            </li>
+            <li>
+              <BsCheck className="service_lis-icon" />
+              <p>
+                {" "}
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                Pariatur, neque.
+              </p>
+            </li>
+            <li>
+              <BsCheck className="service_lis-icon" />
+              <p>
+                {" "}
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                Pariatur, neque.
+              </p>
+            </li>
+          </ul>
+        </article>
+        {/*End of Web Dev*/}
+        <article className="service">
+          <div className="service_head">
+            <h3>Management</h3>
+          </div>
+          <ul className="service_list">
+            <li>
+              <BsCheck className="service_lis-icon" />
+              <p>
+                {" "}
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                Pariatur, neque.
+              </p>
+            </li>
+            <li>
+              <BsCheck className="service_lis-icon" />
+              <p>
+                {" "}
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                Pariatur, neque.
+              </p>
+            </li>
+            <li>
+              <BsCheck className="service_lis-icon" />
+              <p>
+                {" "}
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                Pariatur, neque.
+              </p>
+            </li>
+            <li>
+              <BsCheck className="service_lis-icon" />
+              <p>
+                {" "}
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                Pariatur, neque.
+              </p>
+            </li>
           </ul>
         </article>
       </div>
