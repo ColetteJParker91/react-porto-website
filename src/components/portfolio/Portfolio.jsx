@@ -14,12 +14,22 @@ const Portfolio = () => {
           <div className="portfolio_item-image">
             <img src={IMG1} alt="" />
           </div>
-          <h3>This is a portfolio item title</h3>
+          <h3>
+            MyFlix Application built with Angular, using my API hosted on Heroku
+          </h3>
           <div className="portfolio_item-cta">
-            <a href="github.com" className="btn" target="_blank">
+            <a
+              href="https://github.com/ColetteJParker91/myFlix-Angular-client"
+              className="btn"
+              target="_blank"
+            >
               Github
             </a>
-            <a href="youtube.com" className="btn btn-primary" target="_blank">
+            <a
+              href="https://colettejparker91.github.io/myFlix-Angular-app/welcome"
+              className="btn btn-primary"
+              target="_blank"
+            >
               Live Demo
             </a>
           </div>
@@ -28,12 +38,23 @@ const Portfolio = () => {
           <div className="portfolio_item-image">
             <img src={IMG2} alt="" />
           </div>
-          <h3>This is a portfolio item title</h3>
+          <h3>
+            Pokemon-app built with Javascript displays pokemons fetched from
+            pokeApi.
+          </h3>
           <div className="portfolio_item-cta">
-            <a href="github.com" className="btn" target="_blank">
+            <a
+              href="https://github.com/ColetteJParker91/Pokedex"
+              className="btn"
+              target="_blank"
+            >
               Github
             </a>
-            <a href="youtube.com" className="btn btn-primary" target="_blank">
+            <a
+              href="https://colettejparker91.github.io/Pokedex/"
+              className="btn btn-primary"
+              target="_blank"
+            >
               Live Demo
             </a>
           </div>
@@ -42,12 +63,20 @@ const Portfolio = () => {
           <div className="portfolio_item-image">
             <img src={IMG3} alt="" />
           </div>
-          <h3>This is a portfolio item title</h3>
+          <h3>Mobile Chat Native Application built with React Native</h3>
           <div className="portfolio_item-cta">
-            <a href="github.com" className="btn" target="_blank">
+            <a
+              href="https://github.com/ColetteJParker91/Chat-app"
+              className="btn"
+              target="_blank"
+            >
               Github
             </a>
-            <a href="youtube.com" className="btn btn-primary" target="_blank">
+            <a
+              href="https://youtube.com/shorts/zjKhR2W4Elc?feature=share"
+              className="btn btn-primary"
+              target="_blank"
+            >
               Live Demo
             </a>
           </div>

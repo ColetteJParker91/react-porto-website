@@ -3,7 +3,7 @@ import "./nav.css";
 import { AiOutlineHome } from "react-icons/ai";
 import { AiOutlineUser } from "react-icons/ai";
 import { BiBook } from "react-icons/bi";
-import { RiServiceLine } from "react-icons/ri";
+import { TbFileCertificate } from "react-icons/tb";
 import { AiOutlineMessage } from "react-icons/ai";
 import { useState } from "react";
 
@@ -33,11 +33,11 @@ const Nav = () => {
         <BiBook />
       </a>
       <a
-        href="#services"
-        onClick={() => setActiveNav("#services")}
-        className={activeNav === "#services" ? "active" : ""}
+        href="#certification"
+        onClick={() => setActiveNav("#certification")}
+        className={activeNav === "#certification" ? "active" : ""}
       >
-        <RiServiceLine />
+        <TbFileCertificate />
       </a>
       <a
         href="#contact"
