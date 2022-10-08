@@ -55,7 +55,7 @@ const Experience = () => {
             </article>
             <article className="experience_details">
               <BsFillCheckCircleFill className="experience_details-icon" />
-              <h4>PostresSQL</h4>
+              <h4>PostgresSQL</h4>
             </article>
             <article className="experience_details">
               <BsFillCheckCircleFill className="experience_details-icon" />
